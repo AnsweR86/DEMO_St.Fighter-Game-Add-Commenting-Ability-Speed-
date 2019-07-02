@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Stfighter Ken -BasicMove- Recreated and Praticing Commenting</title>
+        <!-- JAVASCRIPT IN THE HEAD SECTION FOR FAST LOADING -->
+        <!--ALSO SIMPLE CODE-->
+                <!--USE AJAX-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/game.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			a = new PlayGround('ch1');	
+			a.initialize();
+		 //Player 1 speed change to 75 FASTER
+		 setInterval(a.mainLoop,75);
+		});
+	</script>
+</head>
+<body>
+
+	<div id="field">
+		<div id="ch1" class="character"></div>
+		<div id="ch2" class="character"></div>
+	</div>
+
+	 <!--CHANGES TO CONTROL KEY-->
+	 <h1>CONTROL KEYS</h1>
+	 <ul>
+				 <!--ADD DASHING ABLITY-->
+			 <li>Arrow keys (Up, Down, Left, Right,HOLD-Down Left or Right for Dashing)</li>
+			 <li>A: Punch</li>
+			 <li>S: Kick</li>
+			 <li>D: Fireball</li>  <!--NEED WORK TO DISPLAY FIRE BALL-->
+			 <!--CHANGED TO -->
+			 <li>F: Round-kICK</li>
+		 </ul>
+
+	
+	<p>~~ADD HTML CODE FOR ADD ABLITLY OF DASHING w/ MORE DETAILED COMMENATING EVERYTHING ELSE SAME~~</p>
+</body>
+</html>
